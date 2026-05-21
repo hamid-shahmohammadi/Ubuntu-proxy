@@ -1,5 +1,10 @@
 # Ubuntu-proxy
 ```
+sudo nano /etc/resolv.conf
+
+sudo nano /etc/apt/sources.list
+
+
 
 ssh -R 10808:127.0.0.1:10808 root@IPIRAN
 curl -I --proxy http://127.0.0.1:10808 https://www.google.com
